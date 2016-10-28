@@ -1,0 +1,34 @@
+body{
+ display: flex;
+}
+
+
+
+ul.links {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    list-style: none;
+}
+
+
+ul.links li {
+    display: block;
+}
+
+
+
+
+ul.links a {
+ padding: 10px;
+ display: block;
+  transition: all 1s;
+  background: yellow
+      }
+
+
+
+
+ul.links a:hover {
+color:red; 
+  background: black    }
